@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 import imutils
 from collections import defaultdict
-from tracker import CentroidTracker
+
 
 import tensorflow as tf
 import tensorflow_hub as hub
