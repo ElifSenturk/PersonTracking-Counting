@@ -1,5 +1,4 @@
 #import libs
-from __future__ import print_function
 import cv2 as cv
 import numpy as np
 import imutils
@@ -19,7 +18,6 @@ detector = hub.load(module_handle).signatures['default']
 
 
 ct = CentroidTracker()
-(H, W) = (None, None)
 
 def run_detector(detector, path):
   cap = cv.VideoCapture(path)
